@@ -17,9 +17,9 @@ const UpgradeAccountPage: React.FC<UpgradeAccountPageProps> = ({ onBack, user })
   const [paymentDeclined, setPaymentDeclined] = useState(false);
 
   const bankDetails = {
-    bankName: "VFD",
-    accountNumber: "0100775499",
-    accountName: "PRINCE OKANEZI"
+    bankName: "SMARTCASH PSB",
+    accountNumber: "1595887281",
+    accountName: "FATIMA MUHAMMAD"
   };
 
   const copyToClipboard = (text: string, label: string) => {
