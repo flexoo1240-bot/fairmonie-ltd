@@ -126,8 +126,8 @@ Your earnings are credited automatically. Start inviting now!`;
     }
     
     // Payment issues - Fair code not received
-    if (lowerInput.includes('payment') || lowerInput.includes('transfer') || lowerInput.includes('paid') || lowerInput.includes('fair code') || lowerInput.includes('faircode') || lowerInput.includes('code') || lowerInput.includes('purchase') || lowerInput.includes('buy')) {
-      if (lowerInput.includes('not receive') || lowerInput.includes('didn\'t receive') || lowerInput.includes('haven\'t received') || lowerInput.includes('no code') || lowerInput.includes('missing') || lowerInput.includes('problem') || lowerInput.includes('issue') || lowerInput.includes('failed') || lowerInput.includes('error') || lowerInput.includes('didn\'t get')) {
+    if (lowerInput.includes('payment') || lowerInput.includes('transfer') || lowerInput.includes('paid') || lowerInput.includes('fair code') || lowerInput.includes('faircode') || lowerInput.includes('receive')) {
+      if (lowerInput.includes('not receive') || lowerInput.includes('didn\'t receive') || lowerInput.includes('haven\'t received') || lowerInput.includes('no code') || lowerInput.includes('missing')) {
         return `Oops! It looks like there was a network glitch from the confirmation server.
 We sincerely apologize for the inconvenience. Kindly try again — everything should work fine now.
 Thank you for your patience and understanding! 🙏
@@ -138,7 +138,7 @@ If the issue persists after retrying, please contact our support team with your 
     }
 
     // Login/Registration help queries
-    if (lowerInput.includes('login') || lowerInput.includes('register') || lowerInput.includes('sign up') || lowerInput.includes('sign in') || lowerInput.includes('account') && (lowerInput.includes('how') || lowerInput.includes('create') || lowerInput.includes('make'))) {
+    if (lowerInput.includes('login') || lowerInput.includes('register') || lowerInput.includes('sign up') || lowerInput.includes('sign in') || (lowerInput.includes('account') && lowerInput.includes('help'))) {
       return `📱 How to Register on FairMonie Pay:
 
 1️⃣ **Visit our platform**
@@ -197,8 +197,8 @@ Recent activity and detailed records available!`;
     if (lowerInput.includes('support') || lowerInput.includes('help') || lowerInput.includes('contact') || lowerInput.includes('problem')) {
       return `24/7 Support Channels:
 💬 Live Chat: Here with me!
-📧 Email: fairmoniepays@gmail.com
-📱 Telegram: @fairmonie_earning_support
+📧 Email: managementcompany4886@gmail.com
+📱 Telegram: @fairmonieadmin1
 ⚡ Response time: Instant to 24 hours
 
 I'm here to help with any issues!`;

@@ -10,11 +10,11 @@ interface JoinGroupPageProps {
 
 const JoinGroupPage: React.FC<JoinGroupPageProps> = ({ onBack }) => {
   const handleTelegramJoin = () => {
-    window.open('https://t.me/bestniajaupdate', '_blank');
+    window.open('https://t.me/+JnyHz6jG6xhlZmY0', '_blank');
   };
 
   const handleWhatsAppJoin = () => {
-    window.open('https://t.me/bestniajaupdate', '_blank');
+    window.open('https://wa.me/‪2348157929293', '_blank');
   };
 
   return (

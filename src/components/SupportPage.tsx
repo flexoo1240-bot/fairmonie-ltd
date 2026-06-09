@@ -10,11 +10,11 @@ interface SupportPageProps {
 
 const SupportPage: React.FC<SupportPageProps> = ({ onBack, onLiveChat }) => {
   const handleTelegramSupport = () => {
-    window.open('https://t.me/fairmoniesupport', '_blank');
+    window.open('https://t.me/fairmonieadmin1', '_blank');
   };
 
   const handleEmailSupport = () => {
-    window.open('mailto: surdarkw@gmail.com', '_blank');
+    window.open('mailto:managementcompany4886@gmail.com', '_blank');
   };
 
   return (
@@ -49,7 +49,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack, onLiveChat }) => {
               <div className="flex-1">
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Telegram Support</h3>
                 <p className="text-sm text-gray-600">Get instant support through our Telegram channel</p>
-                <p className="text-xs text-green-600 mt-1">@fairmonie_earning_support</p>
+                <p className="text-xs text-green-600 mt-1">@fairmonieadmin1</p>
               </div>
             </div>
           </CardContent>
@@ -64,7 +64,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack, onLiveChat }) => {
               <div className="flex-1">
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Email Support</h3>
                 <p className="text-sm text-gray-600">Send us an email and we'll get back to you within 24 hours</p>
-                <p className="text-xs text-green-600 mt-1">surdarkw@gmail.com</p>
+                <p className="text-xs text-green-600 mt-1">managementcompany4886@gmail.com</p>
               </div>
             </div>
           </CardContent>
